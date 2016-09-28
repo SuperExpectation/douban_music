@@ -1,0 +1,29 @@
+.Music_Head_Nav{		
+	width: 80%;
+	margin: 0 auto;
+}
+
+.Head_Nav_Image{	
+	display: inline;
+	width: 13.1231132%;
+	float: left;	
+}
+
+.Head_Nav_Image img{
+	width: 80%;
+}
+
+.Head_Nav_SearchBar{
+	
+	width: 30%;
+	padding-top: 
+}
+
+.head_search{	
+	padding-top: 1.6491525423%;
+	padding-bottom: 1.6491525423%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px;    
+    width: 69.14893617%;/*650/940*/    
+}

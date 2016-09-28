@@ -1,0 +1,55 @@
+.main_section_musicitem{
+	display: inline;
+	float:left;
+	margin:0 0.90909090% 0 0.90909090%;	/*10/1100*/
+	position: relative;
+	width: 22.727272727%;/*250/1100*/
+	height: 220px; /*220/1560*/
+	border: 1px solid #dcdcdc;
+}
+
+
+.main_section_musicitem_first{
+	margin:0 0.90909090% 0 1.8181818181%;	
+}
+
+.main_section_musicitem_last{
+	margin:0 1.8181818181% 0 0.90909090%;	
+}
+.main_section_music_info_img{
+	/*max-width:60%; 150/250 =  18.2926829%*/
+    /*max-height:68.18181818%;150/220*/
+    width: 60%;
+    height: 68.18181818%;
+    border:4px solid #ddddde;
+    -moz-border-radius: 88.6363636363636%;/*78/88 31.2%*/
+    -webkit-border-radius: 88.6363636363636%;/*78/88 31.2%*/
+    border-radius:88.6363636363636%;/*78/88  31.2%*/
+    behavior:url(PIE.htc);
+    position:absolute;    
+    top:5px;
+    left:20px;
+    margin-left: 12%;/*30/250*/
+}
+
+.main_section_music{
+	height: 68.881818182%;/*150/220*/
+}
+
+.main_section_music_info_title{	
+	height: 21.02727272727172727%;/*50/220*/
+	width: 95%;
+	margin-top: 3.65853658%;/*30/820*/
+	margin-left: 2.43902439%;/*20/820*/
+	text-overflow:ellipsis; 
+	overflow:hidden;
+	font-size: 1em;
+	line-height:1.1;
+	display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.main_section_musicitem a{
+	text-decoration: none;color: black;
+}

@@ -1,0 +1,42 @@
+
+body{
+  font-family: "Pressura", Consolas, monaco, monospace;
+  font-size: 1rem;
+  
+}
+
+.wrapper{
+  margin-top: 0;
+  padding-top: 0;
+  margin-right: auto;
+  margin-left: auto;
+  width: 96%; 
+}
+
+.header{
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 97.9166667%;/* 940/960*/
+}
+
+.main_content{  
+  margin-top: 58px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 85.416666667%;/*820/960*/
+  border-color: gray;
+  display: block;
+  border-style: solid;
+}
+
+.footer{
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  width:97.9166667%;/* 940/960*/
+}
+
+img {
+ max-width: 100%;
+ max-height: 100%;
+} 

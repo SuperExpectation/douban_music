@@ -1,0 +1,45 @@
+import React from 'react';
+import { Router, Route, Link, IndexRoute, History } from 'react-router'
+import MusicItem from './MusicItem';
+
+
+ var MusicList = React.createClass({
+  getDefaultProps:function(){
+      return {
+          data: [],
+      }
+  },
+ 	componentWillMount(){ 		
+ 		//console.info("child param  state: "+ this.props.data[0].title);
+ 		//console.log("child my object: %o",this.props.data);
+ 	},
+
+ 	
+	render () { 
+		var musicItem = [];		
+		const isEmpty = this.props.dataList.musics.data.musics.length === 0
+
+
+		if(!isEmpty){
+			this.props.dataList.musics.data.musics.forEach(function(musicObj,index){
+				musicItem.push(
+					<MusicItem music={musicObj}/>
+				)
+			});
+		}
+
+		return (
+			<div className='main-section_music'>
+				{isEmpty
+		          ? (isFetching ? <h2>Loading...</h2> : <h2>Empty.</h2>)
+		          : <div>
+		              {musicItem}
+		            </div>
+			    }
+				
+			</div>
+		)
+	} 
+ });
+ 
+export default MusicList;

@@ -1,0 +1,117 @@
+.main_center{
+	margin: 0 auto;
+	min-width: 400px;
+	margin-top: 30px;
+	width: 68%;
+	border-color: gray;
+	display: block;
+	border-style: solid;
+}
+
+.main_carousel{
+	width:100%;
+	margin: 0 auto;
+}
+
+.main-section_music{
+	height: 1560px;
+	
+}
+
+.Music_Type_Nav{
+	
+	word-wrap:break-word;
+	display: table;
+	margin-right: auto;
+  	margin-left: auto;
+  	width: 100%;  	
+  	margin-bottom: 20px;
+
+}
+.Music_Type_Content{
+	display: table-row;	
+}
+
+.Music_Type_Content  li a{
+	font-size: 1em; 	
+	width: 10%;
+	word-break:break-all;
+}
+
+.Music_Type_Content  li{
+	list-style-type:none;
+	display: table-cell;
+	margin-left: 1.666666666666%;
+ 	margin-right: 1.666666666666%; 
+ 	width: 19.9427480916%; /*209/1048*/
+ 	text-align: center;
+ 	border: 10px solid #fff;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.Music_Type_Content  li img{
+	 display: block;
+	 margin: 0 auto;
+	 width: 45%;	 
+	 position: relative;
+	 box-shadow: 10px 5px 5px black;
+	 transition: all 0.4s ease-in-out 0.2s;
+     opacity: 1;
+}
+
+.Music_Type_Singer_Mask{
+	background-color: rgba(115,146,184, 0.7);
+	font-size: 1em; 	
+	position: absolute;
+    overflow: hidden;
+    top: 14%;
+    left: 28%;
+	margin: 0 auto;
+	opacity: 0;
+	height: 85%;
+	width: 45%;
+	transform: translate(20%, 60%) ;
+	transition: all 0.2s ease-in-out;
+	word-wrap:break-word;
+	overflow: hidden;
+}
+
+.Music_Type_Singer_Mask p{
+	font-size: 1rem; 		
+	transform: translate(0, 0);
+	transition: all 0.2s ease-in-out;
+	word-break:break-all
+}
+
+.Music_Type_Singer_Mask i{
+	font-size: 1rem; 		
+	transform: translate(0, 0);
+	transition: all 0.2s ease-in-out;
+	word-break:break-all
+}
+
+.Music_Type_Content  li:hover .mask { 
+	opacity: 1; 
+	transform: scale(1) rotate(0deg);
+	transition-delay: 0.2s;
+}								  
+.Music_Type_Content  li:hover img { 
+	transform: scale(0); 
+    opacity: 0;
+	transition-delay: 0s;
+}						
+
+.Music_Type_Content  li:hover p,
+.Music_Type_Content  li:hover a.info{
+    opacity: 1;
+    transition-delay: 0.5s;
+}
+
+
+.Music_Type_Content  li:hover div{ 
+	opacity: 1; 
+	transform: scale(1) rotate(0deg);
+	transition-delay: 0.2s;
+}		

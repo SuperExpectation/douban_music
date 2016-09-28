@@ -1,0 +1,35 @@
+.team{
+	margin: 0, auto;
+  	width: 80%;
+  	font-size: 1em; 
+	font-family: "Pressura", Consolas, monaco, monospace;
+}
+
+.team_main{
+	margin: 5%;
+  	width: 80%;
+}
+
+.team_head{
+	font-size: 1.5em; 
+	font-weight: bold;
+	padding:2% 0;
+}
+
+.opportunity{
+	margin: 0, auto;
+  	width: 80%;
+  	font-size: 1em; 
+	font-family: "Pressura", Consolas, monaco, monospace;
+}
+
+.opportunity_main{
+	margin: 5%;
+  	width: 80%;
+}
+
+.opportunity_head{
+	font-size: 1.5em; 
+	font-weight: bold;
+	padding:2% 0;
+}

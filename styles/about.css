@@ -1,0 +1,17 @@
+.history{
+	margin: 0, auto;
+  	width: 80%;
+  	font-size: 1em; 
+	font-family: "Pressura", Consolas, monaco, monospace;
+}
+
+.history_main{
+	margin: 5%;
+  	width: 80%;
+}
+
+.history_head{
+	font-size: 1.5em; 
+	font-weight: bold;
+	padding:2% 0;
+}

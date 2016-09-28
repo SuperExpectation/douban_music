@@ -1,0 +1,62 @@
+.recommend{
+	font-family: "Pressura", Consolas, monaco, monospace;
+	color: #337ab7;
+}
+
+.recommendItem{	
+	margin:2%;
+}
+
+.recommend_music{
+	border-top:1px solid #EBEBEB;
+	border-bottom:1px solid #EBEBEB;
+	margin-bottom:-1px；
+	margin-top:-1px;
+}
+
+.recommend_music p{		
+	display: inline;	
+	margin-right: 2%; 
+	word-break:break-all;
+	font-size: 1em; 
+	font-family: "Pressura", Consolas, monaco, monospace;
+}
+
+.recommend_music i{		
+	margin-right: 1%; 
+	word-break:break-all;
+	font-size: 1em; 
+	width: 1%;
+}
+
+.recommendItem a:hover{
+	text-decoration:none;
+	color: black;
+}
+
+.recommend_music p:last-of-type{
+	text-align: right;
+	width: 70%;
+	float: right;
+	margin: 0;
+	border-left-style: solid;
+	border-left-color: #EBEBEB;
+	border-left-width: 0.5px;
+}
+
+.recommendItem a:hover div i{
+	-webkit-animation:circle 1s infinite linear;/*匀速 循环*/
+	-moz-animation:circle 1s infinite linear;
+	color: red;	
+	transition-timing-function: linear;
+}
+
+@-webkit-keyframes circle{
+0%{ transform:rotate(0deg); }
+100%{ transform:rotate(-360deg); }
+}
+
+@-moz-keyframes circle{
+0%{ transform:rotate(0deg); }
+100%{ transform:rotate(-360deg); }
+}

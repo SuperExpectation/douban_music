@@ -1,0 +1,25 @@
+
+.seach_field {
+    background: #fff;
+    width: 80%;
+    margin: 0;
+    text-align: left;
+    float:left;    
+}
+
+.seach_field:focus {
+     border: 1px solid #fafafa;
+     -webkit-box-shadow: 0px 0px 6px #007eff;
+     -moz-box-shadow: 0px 0px 5px #007eff;
+     box-shadow: 0px 0px 5px #007eff;       
+}
+
+.search_btn{
+    padding-left: -4px;
+    margin-left: -4px;
+}
+
+.search_btn img{
+    width:77.43242356%;       
+    border:0px;    
+}

@@ -1,0 +1,89 @@
+.main_section_musicDetail{
+	width: 100%;
+	margin: auto;
+    min-height: 100px;
+    padding: 20px;
+    border-radius: 3px;
+    background-color: white;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+    font-family: "Pressura", Consolas, monaco, monospace;
+  	font-size: 1em;
+}
+
+.musicDetail_main{
+	flex-direction: row;
+	display: flex;
+    z-index: 2;
+    position: relative;
+    height: 50%;
+    box-shadow: 10px 5px 5px black;
+    animation: pulse 10s infinite alternate;
+    margin-bottom: 4%;
+}
+
+
+.detail_music_info_img{
+	border-radius: 50%;
+    width: 15.45445454545454545%; /*170/1100*/
+    height: 90%;
+    padding: 30px 30px;
+}
+
+.detail_book_info_title{
+	padding: 0px 20px;
+}
+
+.detail_book_info_title h1 h3{
+ 	font-size: 1.8em;
+
+}
+
+@keyframes pulse {
+  0% {
+    background-color: rgb(57, 163, 198); 
+  }
+  100% {
+    background-color: rgb(196, 66, 60); 
+  }
+}
+
+.musicDetail_trackInfo_table  {	
+	border: 1px solid rgb(196, 189, 192); 
+	width: 100%;
+	font-family: "Pressura", Consolas, monaco, monospace;
+    font-size: 1.5rem;
+    margin-bottom: 4%;
+}
+
+.musicDetail_trackInfo_table tbody tr:nth-child(odd) {
+    background-color: rgb(210, 220, 222); 
+}
+
+.musicDetail_tableTab{
+	border: 1px solid rgb(196, 189, 192); 
+	border-bottom: 0;
+	width: 10%;
+	text-align: center;
+	font-weight: bold;
+}
+
+.musicDetail_trackName{
+	list-style-type:none;
+	font-family: "Pressura", Consolas, monaco, monospace;
+    font-size: 1.2rem;
+}
+
+.musicDetail_trackTab{
+	font-family: "Pressura", Consolas, monaco, monospace;
+    font-size: 1.5rem;
+    border: 1px solid rgb(196, 189, 192); 
+	border-bottom: 0;
+	width: 10%;
+}
+
+.musicDetail_trackContent {
+	border: 1px solid rgb(196, 189, 192); 
+	width: 100%;
+}

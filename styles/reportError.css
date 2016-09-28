@@ -1,0 +1,47 @@
+.report_main{
+	margin: 0, auto;
+  	width: 80%;
+  	font-size: 1em; 
+	font-family: "Pressura", Consolas, monaco, monospace;
+}
+
+.report_form{
+	margin: 5%; 
+}
+
+.input-block{
+	width: 80%;
+	margin:0 auto;
+	padding: 1% 0;
+}
+
+.button-row{
+	width: 80%;
+	margin:0 auto;
+	padding-left: 30%;
+}
+
+.input-block label{
+	margin-right: 2%;
+	
+	width: 20%;
+}
+
+.input-block span{
+	display: block;
+	margin-left: 22%;
+}
+
+.input-block input{
+	width: 60%;	
+}
+
+.input-block textarea{
+	width: 60%;	
+	height: 80px;
+}
+
+
+.report_submitBtn{	
+	width: 20%;
+}
